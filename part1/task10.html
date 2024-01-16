@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        const numbers = [15, 22, 8, 37, 19]
+
+        const pro = numbers.reduce((hasil, curr)=>{
+            return hasil*curr;
+        }, 1)
+        console.log(pro);
+
+        numbers.sort((a, b)=>{
+            return b-a;
+        })
+        console.log(numbers);
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        const myFunc = (param) =>{
+           
+            if(typeof param === 'number'){
+                return param * param;
+            }
+            else if(typeof param === 'string'){
+                return "Yanlış informasiya təqdim olunub!"
+            }
+            else{
+                return param;
+            }
+
+        }
+
+        console.log(myFunc(5));
+    </script>
+</body>
+</html>

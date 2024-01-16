@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>DOM Manipulation Example</title>
+</head>
+
+<body>
+    <h1 id="header">Sample Header</h1>
+    <p id="paragraph">This is a sample paragraph.</p>
+    <button>Change</button>
+
+
+    <script>
+        var header = document.getElementById("header");
+        var para = document.getElementById("paragraph");
+        var btn = document.querySelector("button");
+
+        function handleClick() {
+            header.style.color='blue'
+            para.innerText = "JavaScript dili!"
+            para.classList.add("text-bold")
+            header.style.fontSize = "18px"
+        }
+
+        btn.addEventListener('click', handleClick)
+    </script>
+ </body>
+
+</html>

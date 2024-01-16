@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Event Handling Exercise</title>
+  </head>
+  <body>
+    <p id="displayText">Display Text Here</p>
+    <input id="input"></textarea>
+    <button id="updateButton">Update Text</button>
+    
+    <script>
+      var displayText = document.getElementById("displayText");
+      var input = document.getElementById("input");
+      var updateButton = document.getElementById("updateButton");
+
+      function handleClick() {
+        displayText.innerHTML = input.value;
+        }
+        updateButton.addEventListener("click", handleClick);
+    </script>
+  </body>
+</html>
