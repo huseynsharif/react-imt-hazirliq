@@ -7,6 +7,7 @@ import CounterComponent from './components/CounterComponent';
 import Timer30 from './components/Timer30';
 import StyledText from './components/StyledText';
 import CheckBoxComponent from './components/CheckBoxComponent';
+import BackgroundChanger from './components/BackgroundChanger';
 
 function App() {
   return (
@@ -30,7 +31,8 @@ function App() {
         message={"Salam"}
       /> */}
 
-      <CheckBoxComponent/>
+      {/* <CheckBoxComponent/> */}
+      <BackgroundChanger/>
     </div>
   );
 }

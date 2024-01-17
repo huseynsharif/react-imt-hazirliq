@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 
 export default function Timer30() {
 
-    const [sec, setSec] = useState(5)
+    const [sec, setSec] = useState(30)
 
     useEffect(()=>{
         setInterval(()=>{
