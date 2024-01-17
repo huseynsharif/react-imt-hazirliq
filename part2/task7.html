@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <img src='https://unsplash.com/fruit.png' alt='fruits' id='image' />
+    <button id='btn'>Change</button>
+
+    <script>
+        const btn = document.getElementById('btn');
+        let image = document.getElementById("image");
+
+        btn.addEventListener("click", () => {
+            image.src = "https://unsplash.com/apple.png"
+        });
+
+    </script>
+</body>
+
+</html>

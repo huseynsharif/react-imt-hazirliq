@@ -11,14 +11,17 @@ function App() {
     <div className="App">
       {/* <Counter/> */}
 
-      {/* <DynamicSection
-        sectionId={"text"}
-        htmlContent={<p>Məndən Əzrail ala bilmədiyi canı, gülüm <br/>İstəsən nazın ilə alsan, alarsan bəlkə.</p>}
-      /> */}
+      <DynamicSection sectionId={"text"}>
+
+        <p>Məndən Əzrail ala bilmədiyi canı, gülüm 
+        <br />
+        İstəsən nazın ilə alsan, alarsan bəlkə.</p>
+
+      </DynamicSection>
 
       {/* <Timer/> */}
       {/* <CounterComponent/> */}
-      <Timer30/>
+      {/* <Timer30/> */}
     </div>
   );
 }

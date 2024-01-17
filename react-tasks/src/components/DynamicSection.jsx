@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function DynamicSection({htmlContent, sectionId}) {
+export default function DynamicSection({sectionId, children}) {
   return (
     <div>
 
@@ -11,7 +11,7 @@ export default function DynamicSection({htmlContent, sectionId}) {
                 color:'red',
                 fontSize:"24px"
             }}
-        >{htmlContent}</section>
+        >{children}</section>
 
     </div>
   )
