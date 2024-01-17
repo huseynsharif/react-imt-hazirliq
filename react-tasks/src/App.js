@@ -8,6 +8,8 @@ import Timer30 from './components/Timer30';
 import StyledText from './components/StyledText';
 import CheckBoxComponent from './components/CheckBoxComponent';
 import BackgroundChanger from './components/BackgroundChanger';
+import Form from './components/Form';
+import CollapsibleText from './components/CollapsibleText';
 
 function App() {
   return (
@@ -32,7 +34,13 @@ function App() {
       /> */}
 
       {/* <CheckBoxComponent/> */}
-      <BackgroundChanger/>
+      {/* <BackgroundChanger/> */}
+      {/* <Form/> */}
+
+      <CollapsibleText 
+        header={"Məkani-yarə gedən qatar"}
+        content={"Həmən qatarın salikiyik."}
+      />
     </div>
   );
 }
